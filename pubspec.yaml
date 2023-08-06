@@ -1,7 +1,7 @@
 name: topo_simplify
 version: 1.0.0
 description: Filter and simplify geometries while preserving topology for smaller files and faster rendering!
-repository: https://github.com/SBanksX/topo_simplify
+repository: https://github.com/luizbarboza/topo_simplify
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
@@ -12,3 +12,4 @@ dependencies:
 dev_dependencies:
   lints: ^2.0.1
   test: ^1.22.0
+  topo_parse: ^1.0.0
