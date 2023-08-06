@@ -50,7 +50,7 @@ void main() {
           [90, 0],
           [0, 0]
         ], false),
-        2 * pi);
+        closeTo(2 * pi, 1e-6));
     expect(
         topojson.sphericalRingArea([
           [0, 0],

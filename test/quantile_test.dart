@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:test/test.dart';
-import 'package:topo_client/topo_client.dart' as topojson;
+import 'package:topo_parse/topo_parse.dart' as topojson;
 import 'package:topo_simplify/topo_simplify.dart' as topojson;
 
 void main() {
